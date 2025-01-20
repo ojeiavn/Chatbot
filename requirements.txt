@@ -9,3 +9,4 @@ chromadb
 chroma-hnswlib
 pydantic
 scikit-learn
+langchain_experimental
