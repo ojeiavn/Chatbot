@@ -25,6 +25,11 @@ from langchain.retrievers.ensemble import EnsembleRetriever
 from typing import List, Tuple, Dict
 from pydantic import Field
 from sklearn.metrics import precision_score, recall_score, f1_score
+__import__('pysqlite3')
+import sys
+
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+import sqlite3
 
 st.set_page_config(page_title="CS352 Lecture Helper", layout="wide")
 store = {}
