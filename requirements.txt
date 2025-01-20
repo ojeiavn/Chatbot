@@ -11,3 +11,4 @@ pydantic==2.9.2
 scikit-learn==1.5.1
 langchain_experimental==0.3.3
 sqlite3==3.48.0
+pysqlite3==0.5.4
