@@ -536,11 +536,10 @@ class StreamlitUI:
 def main():
     # Load environment variables
     load_dotenv()
-    OPENAI_API_KEY = st.secrets.api_keys.OPENAI_API_KEY
-    LANGCHAIN_API_KEY = st.secrets.api_keys.LANGCHAIN_API_KEY
-    LANGCHAIN_TRACING_V2 = st.secrets.other_secrets.LANGCHAIN_TRACING_V2
-    print(f"OPEN AI KEY: {OPENAI_API_KEY}")
-
+    os.environ['OPENAI_API_KEY'] = st.secrets.api_keys.OPENAI_API_KEY
+    os.environ['LANGCHAIN_API_KEY'] = st.secrets.api_keys.LANGCHAIN_API_KEY
+    os.environ['LANGCHAIN_TRACING_V2'] = st.secrets.other_secrets.LANGCHAIN_TRACING_V2
+    
     # 1) Load existing content Chroma store from disk
     content_vectorstore = Chroma(
         persist_directory="C:\\Users\\ojei1\\Documents\\ML\\RAG\\Chatbot\\content_chromadb",
