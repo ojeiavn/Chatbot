@@ -1,0 +1,5 @@
+[PAPER] Financial Report Chunking for Effective Retrieval Augmented Generation: https://arxiv.org/pdf/2402.05131
+[PAPER] Improving Retrieval for RAG based Question Answering Models on Financial Documents: https://arxiv.org/pdf/2404.07221
+[PAPER] META-CHUNKING: LEARNING EFFICIENT TEXT SEGMENTATION VIA LOGICAL PERCEPTION: https://arxiv.org/pdf/2410.12788
+ 
+[PAPER] QB-RAG: 
