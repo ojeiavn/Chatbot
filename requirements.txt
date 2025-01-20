@@ -1,12 +1,11 @@
 langchain
+langchain_community
+langchain_core
+langchain_openai
 pinecone-client
 python-dotenv
 streamlit
-langchain-openai
-python-dotenv
-langchain_core
-langchain_community
-pydantic
-scikit-learn
 chromadb
 chroma-hnswlib
+pydantic
+scikit-learn
