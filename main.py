@@ -79,7 +79,7 @@ class DocumentSplitter:
         
 
 class QuestionVectorStore:
-    def __init__(self, questions=None, persist_directory="C:\\Users\\ojei1\\Documents\\ML\\RAG\\Chatbot\\chromadb"):
+    def __init__(self, questions=None, persist_directory="chromadb"):
         self.persist_directory = persist_directory
         self.embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
         self.cache_file = os.path.join(persist_directory, 'question_cache.json')
@@ -539,10 +539,10 @@ def main():
     os.environ['OPENAI_API_KEY'] = st.secrets.api_keys.OPENAI_API_KEY
     os.environ['LANGCHAIN_API_KEY'] = st.secrets.api_keys.LANGCHAIN_API_KEY
     os.environ['LANGCHAIN_TRACING_V2'] = st.secrets.other_secrets.LANGCHAIN_TRACING_V2
-    
+
     # 1) Load existing content Chroma store from disk
     content_vectorstore = Chroma(
-        persist_directory="C:\\Users\\ojei1\\Documents\\ML\\RAG\\Chatbot\\content_chromadb",
+        persist_directory="content_chromadb",
         embedding_function=OpenAIEmbeddings(model="text-embedding-3-small")
     )
 
