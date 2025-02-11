@@ -11,3 +11,7 @@ langchain_experimental==0.3.3
 pysqlite3-binary==0.5.4
 chromadb==0.5.15
 chroma-hnswlib==0.7.6
+faiss-cpu==1.10.0
+nest-asyncio==1.6.0
+async-lru==2.0.4
+PyMuPDF==1.24.13

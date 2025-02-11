@@ -1,8 +1,10 @@
 # .gitignore
 .env
 References.txt
-Requirements.txt
 qb.py
 other.py
 new.py
 lec352.txt
+main.py
+context.txt
+

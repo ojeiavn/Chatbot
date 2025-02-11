@@ -1,0 +1,653 @@
+SPEAKER 0
+These conditions half the amount. That doesn't meant to me. It's been. It's about what the formula means, which is, you know, how many partitions there are. So it's not that they're not partition partitions. Don't it's true that, you know, order doesn't matter. But if you want the number of partitions were order does matter. And you know they have fixed cardinalities then that is the formula. Okay. I just want to follow up with. I guess you haven't been asking why? I think you were supposed to. Wait. I think what I've been told is you are first. You have been given time to choose. And if you didn't, they would randomly put you into one.
+
+SPEAKER 1
+Yeah. So I think they have.
+
+SPEAKER 0
+Well, I mean, you have to go to the support office and statistics or send me an email and I'll forward it to them. But I cannot do something directly myself. It's done by the administrative office. Okay. Sure. Thank you.
+
+SPEAKER 1
+Very much. I just. From the beginning. So when you said that you could map elements of an event to their position, but how does that take into account if maybe I can choose from force and force for two, because they are the same sets subsets?
+
+SPEAKER 0
+Yeah. It shouldn't matter.
+
+SPEAKER 1
+Shouldn't matter?
+
+SPEAKER 0
+No. Well, I mean, depends on the question. But if you throw the dice, it shouldn't matter. So.
+
+SPEAKER 1
+Okay. Okay, guys. Okay, okay. About. Yeah, this time of year. Just sad. Give us. Us like stars and Mars and then. Yeah. Is there enough for you to, like, prove stuff like the stars of Mars? Can I just.
+
+SPEAKER 0
+Explain? I mean, you know, as long as you're explaining your logic of how you count, basically, you create an algorithm. So you describe the algorithm, you describe the steps, and that's what you need to do.
+
+SPEAKER 1
+And one more question. The first question. Describing the event using symbols. I wasn't sure how to do that. Execution. Some stuff like I did.
+
+SPEAKER 0
+Okay, then. Okay, let's move on.
+
+SPEAKER 2
+Okay, I guess I'll begin. Um, so you recall, we've we've learned about the guide, different knowledge areas and process groups. We've learned about the iron triangle and the fact that we have to trade off different aspects of the project. So the cost is up at the time. We've talked about things like the project charter stakeholders, things like that. That's what we did in the first session. Then we talked a bit about scope and time management. We talked about these work breakdown structures, and we made PMDs that look like this. And we ran out of run out of time a bit towards the end. But hopefully you all in the seminars got the chance to practice doing critical path method. It's pretty much guaranteed to come up in the exam, so it's well worth making sure you understand that. Some things I could rush over, I'll come back and discuss them at the very end. The module will have a recap session where I'll try and fill in the blanks and the gaps of anything that I missed. This session has been recorded for the people at home. Hello. So today we're learning about Prince two. So presumably you all know who Prince two is. It's one. The spare one no one likes. No, that's not why I haven't read his book. I don't have any book. It looks quite interesting. Prince two that we're going to talk about today. And this Prince two there. Actually, they have some similarities, which is why I gave this example. They're both made in Britain, so we can probably call. Over time. So the version of prints that I've got is written in American English. These are Z in organisation, that kind of thing. So that's a bit disappointing. They're both. We all know that, Harry. Popularity has a bit of a bad reputation, perhaps because of its excessive bureaucracy. So. Prince Harry's book might make you think he's a really nice guy after all. Hopefully today's lecture will make you realise that Prince two is actually not as bad as it might first see. So we're going to. In controlled environments, so it's specific. Can you hear me? Right at the back. Is it working? Yeah. Thanks. Thank you. Thumbs up. So privacy was designed for a particular case in mind. It's not suitable for every project, but for the projects that it is designed for, it helps to control them where control is needed. So, as usual, if you have a question, I'll be checking the box periodically. So final question. So if there's a problem with that someone let me know in real life. But I'm sure you haven't thought of any funny jokes yet. I'm sure they'll be coming in due course. So Prince two defines a project differently to the way we did it right at the start. Okay, so it emphasises these five different things about a project. So a project is different to regular business, right? Project is the thing that is going to change the business that's going to do things different to how they usually are done. There's going to be some uncertainty involved because it's a new thing. It's going to involve some uncertainty, but it's going to be risky. It's temporary. So our project has an end date. A project doesn't go on forever. There's no ongoing. A project has a finite end date. It's therefore bounded in time. Therefore, the triangle already has a solid constraint that we need to work up against. There's a unique element to it. It's not just something that you ordinarily do, it's something new and it's cross-functional. That means it brings together different parts of an organisation. Cross-functional means different functions have to work together. That's notoriously difficult to get. People who speak different languages work in different ways, working together on the same kind of thing. So it's important if you're bringing the skills together to be able to manage and control it and liaise between different functional groups of an organisation. So these things all make projects more challenging than normal business, which is why Prince two is again, Prince two has its history in computer science, although it's used now for many large scale government level projects that have no IP involved at all. It started off as a way of handling this new, exciting thing of computers back in the 70s. They thought, how were going to manage these projects? They're so wild compared to our simple bridge and road building projects. So what they tried to do is they tried to apply the knowledge and skills of traditional management to it. And at first, I imagine the Prince two solution was maybe a little bit bureaucratic, a little bit, you know, told people exactly how to do their job. It became it didn't have the best perception, let's say since then, it has evolved and adapted over time to more generic projects. There's even an agile variant of Prince two now. So Prince two is moving with the times. It's a methodology that is constantly adapting. It isn't just a fixed way of doing things, it is not waterfall. For those of you who are going to write in your exam that prince who is waterfall, I'm going to give you a zero. Please don't do it. Prince two is not waterfall, okay? It's entirely different. It's very nuanced. It's very much more impressive than that. So I don't love Prince two, by the way. It sounds like I do. What? I don't love these students thinking it's waterfall. It means I've not taught you properly. So. Yeah, let's let's explain what Prince really is. So these are the criticisms of Prince two, and I think I probably had these same criticisms before I really understood it to. It's only suitable for large projects because it's quite a heavyweight approach. It's constraining. It tells you how to do the do the work. So it's constraining, it's inflexible, it's not agile, therefore it's not allowing you to adapt to change. There's lots of paperwork involved. It's not solution oriented. It's focusing on process and it's very bureaucratic. There's a boss in charge that the project manager in charge. There are levels of authority in the project. So it's it's all of those things. I think those things are not bad criticisms. That's what people say about them. And those things are all true to some extent. Hopefully we'll come back and address the fact that some balance to these things later on. Okay, so there are some books on the reading list that I think are worth dipping into to understand this stuff. The essential reading is this Prince two for beginners. I think it's a bit of a boring read as well. It's a bit like a reference guide. It's a bit of a book when it comes to these things, but I think it's it's maybe worth dipping into it and having a look. It's the two halves of the book are structured in different ways. The first half's focussed on the different processes of Prince two, which we're going to talk about, and the other half is processed into different themes, so you can maybe read it in two different ways, which is quite useful. I've read I particularly like this one here, which is instead structured by the principles of Prince two. We're going to talk about these different things in a moment. So the books are all good if you're really struggling. Prince two for dummies might be the way, the way forward. I find that that's a little bit too a little bit too simple. But the introductory stuff in there is quite good. So have a look. They're all online anyway. You can have a dip in each once you like if you want to have a look at them, but it may be useful to have a look. So what is book versus Prince two? So what's what is Prince two I should say compared to PMBoK 12 already covered. So the phone book guide is like a toolkit of lots of different techniques that project managers are going to follow. They did it out based on what they're doing. It's focussed on the activities that you'll do, like the Gantt chart or something, or the work breakdown structure. Focus on those activities. It's driven by succeed. In meeting the customer requirements of the project. It's very much customer centric. And as we know, it's split into this process. Groups, knowledge areas. There are about 49 different processes depending on which version you read. It might be a slightly different number, but there are about 49 different areas that the project manager needs to do some stuff. Prince two is a methodology rather than a framework. So a framework is like a scaffold. Methodology is kind of these are the steps we're going to follow. So it's a lot more prescribed, tells you a bit more detail about how to go about doing your job as a project manager. It's focussed not on the activities that a project manager does, but on how do you get the best product out of the end of the project. So it's really product oriented, everything is product focussed and it's driven by the business case. So if the project is not profitable, it says don't do it. Remember with PMBoK we didn't even have the business case as part of it that was done before the project even existed. The business case was an input to the the initiation phase. Right. So this is actually really very central to the business case. So it really puts the business needs right up at the front. And instead of being split into process groups and knowledge into processes and themes, a different way of structuring it, we're going to talk about. And so it's a much more prescriptive approach. So let's talk about these different parts. So the first thing the first, I think the way of thinking about prints is to think about the principles underlying it. Let's start with that. Okay. So what are the principle principles. Number one continuous business justification I mentioned that it puts the business case at the centre. And the very first principle is that unless there is a business benefit, you don't do the project. So you must always put that at the very front of of any project. So you need to ask questions of feasibility, viability, benefit straight away thinking about those motivations from the point of view of the business, that's a really important distinction that makes it quite different from the PMI approach. Come a principle here. You must learn from experience. Try not to make the same mistake twice. So, for example, you don't want to. You don't want to pick a supplier who you know is really dodgy. You want to pick the best people to be in your team. You know you want to learn from experience. There are things that are the same from project to project. Even if every project is unique, some things are the same. You want to learn those lessons. So that seems like a pretty sensible thing to have is one of your core principles. That's pretty pretty reasonable. Defining the roles and responsibilities. It's pretty difficult to have a big piece of work and not say, okay, your job is to do that. If you don't define roles and responsibilities, people don't know who's responsible. People don't know who's going to be accountable, who's going to be punished if it doesn't get done. Things don't get done unless you tell them to do it. If there's no accountability. So that also seems to make sense for most projects. This next principle is managed by stages. This is a really important one. What it says is you break the project into manageable, manageable, manageable chunks. You don't do it in the waterfall style, but instead you break it down into stages, almost like iterations. Okay, so I think that's a really important one, and many students don't seem to grasp that one when they come to being in an exam. Management stage is really important. Managed by exception. What this means is you only manage in exceptional circumstances. Otherwise you let people get on with their job. So what you do is you as a manager, you define the limits. You say this is the threshold. This is your budget. This is your timeline. This is your deadline. And within those within those thresholds, the person doing the work can do it the way they see fit. Let people get on with the job. Unless they forecast that the exit, that there's going to be an exception, that the limit will be breached, and then the project manager needs to get involved. So that's a very kind of hands off way of managing. It's not kind of telling people what to do. Focusing on products already mentioned is product focus. You think about outcomes and outputs. You're thinking about making tangible things so you don't get lost in the waffle of why you focus everyone's mind on producing things. You allow the how and the why to be there. Perhaps the domain of the developers, the what is what you're focusing on from a management point of view. And the final one tailored to suit the project environment. So what that's telling us is that you don't have to follow Prince to the letter. You don't have to produce every document or every piece of paperwork. In fact, you can customise your approach to suit the problem you're trying to solve. So there's an adaptability component to it as well. So these are the seven principles Prince do. So I don't think any use principles are particularly offensive. They all seem like pretty sensible motivations for coming up with an approach to sort. So let's see if you've understood those principles. And we'll start with a bit of a quiz. So get your phone down in Warwick to AC to UK PM 44. Hopefully you'll all get logged on there. So the question is which principle of Prince do contradicts this common myth? I'm sorry, which principle contradicts this common myth about history? Someone might say it only makes sense for really large projects. How would you counteract that in an exam scenario? Which of these these principles would you cite? I'll give you a few seconds to make sure you're logged on. Okay, I'll stop the poll just there. So pretty. So yes, many of you that have spotted there tend to do for a bit tailor to suit the project environment, so you can adapt it to suit any size of project. So well done for spotting that one. The majority of you there.
+
+SPEAKER 3
+Next question.
+
+SPEAKER 2
+So which principle contradicts this myth about my. It forces you to do all the planning up front. Remember I said Prince two is not waterfall? Waterfall is about doing all the planning up front. So which of these principles contradicts that?
+
+SPEAKER 1
+Feel going up. That's good.
+
+SPEAKER 2
+I'll stop the cold in a second. So get your answer in. Please get off of there. Absolutely. Yes. You all got that one. I'm glad I hammered that one home. Manage my savings. Exactly. Is what we're talking about here. It's the idea that we're managing it in stages. We actually do the planning for each stage up front. So there is a bit of waterfall on each stage, but you have lots of stages, so you're not doing all the planning up front, just the planning for that particular. Okay. Which principle exists? There is no need for all this paperwork other than to keep senior managers happy. Now that you're involved in a Princeton project, you may feel this. This is something that is definitely feels this way. The bureaucracy of Princeton often feels like it was a big, long chain. My issue is not to keep the senior managers and others happy. And there is a principle underlying this. Which one? I think there's more than one. Really. Okay, I'll stop the poll there and see what you said. Yeah. Okay. So you're going to need paperwork to do the continuous business justification. You probably also going to need some paperwork to learn from experience. You want to keep a log of what you've learned. I guess the defining of the roles and responsibilities is a paperwork one as well. You need to put down in writing who's responsible. But yeah, continuous business vacation is the answer that I've gone for there. I want to try and read my justification because I feel like most people are here.
+
+UNKNOWN
+UPS. Static or something. Doing anything. Not moving. Okay.
+
+SPEAKER 1
+Okay. Um.
+
+SPEAKER 2
+Yeah. I think with the last one, I think multiple answers would have been acceptable. But I think, you know, the paperwork, there were clearly many benefits in upholding these principles. Okay, so the team is unable to work. Oops. Just told you the answer. Why did that folder start? Here we go. You may have already seen the answer pop up there briefly. Hopefully not. The team has been able to work effectively when they are constantly being told how to do their job. So yeah, hopefully you get your answer. Be nice and quickly for that one. If you didn't see it and give it a guess.
+
+SPEAKER 1
+Okay, I'm going to stop the poll because I think it was.
+
+SPEAKER 2
+Yeah. So managed by exception is the idea that people aren't told how to do their job, they're told to work within certain set of limits and boundaries, and then they are able to get on with their job within that, within that. Okay. So these are the privacy principles. Just a quick question to see if you kind of agree with them. Do you agree with them or do you agree with most of these principles. Do these resonate through with you or do you disagree with most of them or you disagree with more? I want to sort of see where what kind of audience we've got here. We've got an anti prince or a pro prince two audience in the room. There's no right or wrong answer to this. You won't be docked marks for disliking points to something like that. Just just to gauge where we're at.
+
+UNKNOWN
+Okay. Hold that.
+
+SPEAKER 2
+So let's see where you are. Most of you are, because the vast majority have a rough agreement with it. Most of you agree with at least some of it. The majority of you with most of it, if not all. So in principle, Princeton seems well founded, right? I think I think it's reasonable to say that these ideas are not controversial in themselves. So let's try and understand why Prince Do ends up suffering from some kind of controversy. Well, first of all, before we get there, let's think about how Prince to split things up so it doesn't follow the five process groups. So remember we have initiation, planning, execution, monitoring, controlling and then closing. These are kind of the areas where a project manager does their work. Prince two kind of changes it. It has actually seven different processes. Seven seems to be the magic number. And Prince two starting up directing, initiating, managing the stage boundary. Controlling a stage. Managing delivery, closing a project. These actually map quite directly onto these processes. So initiate starting up and initiating that kind of the same thing. There isn't really a directing part, but initiating as well. So you see this the starting of and initiating. They're both kind of different phases of initiation. So there's kind of a bit more paperwork in the initiation, probably because there's more business case stuff to manage. Managing a stage boundary that's planning. So we don't do planning all upfront. We plan each stage. So you do the planning at the stage boundary. That's the planning phase controlling. That's the monitoring and controlling of course managing product delivery. That's execution. Right. That's the doing of the work. But you're managing the delivery of a product because it's very product oriented. And then finally closing. So these things kind of line up quite nicely and produce a nice little animation just to sort of show you how that works. So we have kind of two initiation stages. We've got one called starting up and one called initiated. The money controlling kind of goes with it goes around the execution like this. So planning is kind of managing the stage boundary. We do that before we do any execution. The controlling sort of goes around that managing product delivery and closing. So it's kind of the same. It doesn't really make sense anyway. But this big blue bit goes around planning. You're not monitoring and controlling the planning anyway. So I think the book diagram was just wrong. I think the guy got it wrong. This is probably how it really should be considered. I guess what this makes clear is that there is a very clear distinction between what's happening here and what's happening here. It's less continuous. It's kind of work stops, you start the next stage boundary, whereas this perhaps feels a little a bit more fluid, continuous. And of course, the thing I didn't mention, this big brown turd. This is called directing direct from the project. This is the big difference, really. In Princeton. And if you come to get it, the big brown turd. It's kind of a big problematic, limiting thing, which means that every single stage has to go via this board of directors. You see, you've got to get approvals before you start the stage. Now there is managed by exception. That means the directors will allow you to get on with that stage within the within the boundaries, they said. But our board of directors is involved in the decision making. So that's the bureaucracy. That's the power component. That's why Princeton gets it. Its bad reputation and where some of the challenges, but also the advantages of Princeton. It's. And we can flip that on its side just to make it consistent with some of the diagrams that you might see. It's exactly the same diagram. This is just the way it's shown in some of the textbooks. The idea that you are starting to do have a little animation here. So do so you start with perhaps a project mandate or something from the corporate management of the nation. You'll go into a starting a project, starting with a project phase, which is the the initial stage of a project where you're getting the project documentation ready. And the very first thing you need to do is a point to project manager and start the project. So you need to get permission from the board to do that. So the first thing that's going to happen, and at that point you can start doing the work of managing the project. So then you start doing some planning. As we already said, once you've done the planning, you get the board to approve the stages of the project that you've just decided on. And the first stage can be planned. So can you see that? There was when I said, we do some planning, we do some planning in the in the initial stage, some kind of high level plan. That's what the initiation is. Then we get the approval and then we're doing the stage plan, the detailed plan of the first sprint or whatever you want to call it, like the first stage of the project. You have that plan, and you need to get the board to approve the plan for the first stage, and then you can start doing some work. And at that point, the team can start working hard. If there are problems. You mean to control that stage by dealing with exceptions that arise? You may even need to go to the board and ask them for approval. And then what we can do is actually we can go back to the plan, the next stage. Now, I should I should make it clear this managing of the next stage boundary is happening in parallel to when the managing product delivery is happening. So there isn't really a stop and wait for the next stage to be managed to be planned. The project manager needs the work to carry on while they are starting to plan the next stage, perhaps based on lessons learned during the first stage. That's all fine. The board's approval should come, and the next stage should fluidly follow the previous stage. There shouldn't be any outage or time wasted. Okay. Just want to make that clear because I think that might not always be clear. So the directing, the directing of projects part of the process. These are all processes. These are all different processes. This process is kind of runs through everything. And there's always kind of a board approval. And the board may decide at the end of the after the final stage or even before that to close the project. Why might they decide to close the project? What's the main reason to do that? Yeah. Save money. Yeah. Well, what I was looking for was because there's no longer a viable business case, but. Yeah. Absolutely. Right. Probably money. Good. So that's pretty steep. And this is what it looks like if you dig into each of those processes. I don't expect you to memorise or learn these things, but you can look at this slide in your own time and figure out what's going on in each one. It's kind of like a flowchart. It tells you what you need to be thinking of and doing in each step. Okay, so we've got these principles that we all roughly agree with. We've got these processes which tell us how to how to go through the different parts of the management. Very similar to sort of sort of aligned. Deb Prince to has defined roles and responsibilities. Okay. So the project team, the people managing that project comprise the project manager, of course. But a project board is the is the big one. And the project board is the panel that represents the key stakeholders of the project. They're not a board of directors, just sort of with lots of mean influence trying to derail the project. They are a board dedicated to your project, and they are appointed specifically with stakeholder representatives that are going to help your project. So there are there are three people who should be on that board. Someone representing the business interests. Someone representing the end users interests, and someone representing suppliers interests, suppliers, representative people doing the work right. The people either outsourced or in-house who are going to be delivering the work. So the business, the end user and the people involved are all represented on your board. So that means the project shouldn't go against any of those key stakeholders. Now the board is ultimately accountable for the project. They're the ones who get in trouble. If the project doesn't go to plan, the board appoints the project manager to do their bidding for them on a day to day basis. But ultimately, the board is accountable. So the project manager is not on the chopping block. The board is. And that's important because that board has to make the crucial decisions. If that board wants to exert its influence and derail the project, then it's going to have to be accountable for that. The project manager. The day to day management to the board are probably very busy. They probably have other jobs as well. They might be boards. They might be on boards. For many projects, the project manager tends to be dedicated to that one project. They get authorisation from the board. They have a certain remit within which they can operate. There may be contingencies in which they can approve slightly bigger budgets or things like that, but they need approval, of course, from the board to change the plan beyond those agreed limits. That's the managed by exception principle apply. So as a board, why do you need a project board? Let's see what you think. So this is to make a word cloud to try and get single word access. Why do we need a project board on a project? I'll give you 30 more seconds to get your answers in, and you've got to press submit when you've written it. Oh, please. What about at the bottom? Okay. Stop in just a second. Press a bit now, please. Stay still. I assume you're done. Okay. Why do you bored? You think you're bored? Because we need accountability. Very important. Good. You obviously understood that word. I stress in the last slide. Also a bit of direction. I guess the board of directors need to give some direction. That makes sense. Can't argue with that. Fair representation. Equality. That's not really how boards tend to operate. It would be great if we have boards that were really like that, but actually boards tend to be dominated by certain personalities, certain strong egos in organisations. There probably isn't much equality there. There probably isn't the right amount of fair representation that you'd like ideally, but I think that may be a naive view. Having oversight. Yeah. Having that ultimate control. Sorry about that, Mike. It's the funding for the board is responsible for funding. So there would be a sponsor external to the project. Who would be responsible for funding the executive on the board? The person responsible for the business would think about making sure that the project was funded, and they might need to liaise with the sponsor, but the board's role is not to fund the project or be responsible for that. It's to manage the kind of the decision for the project itself and ensure it's profitable. Keep the business focus, of course.
+
+SPEAKER 1
+Let's have a look.
+
+SPEAKER 2
+Crush our hopes. Yeah, I think you know some of that as well. I think you know someone to blame. That's it. I mean, that's the same accountability argument, right? It's important that the project manager isn't just fired after a project goes wrong. It's important that there's some continuity of blame that people actually, you know, people within the organisation who are responsible and accountable are held to that. So yeah, I think I think most of those things are so good. You appreciated why it's important, these kind of how it looks like visually, if it's useful to you, a senior user executive, that's the business representative senior supplier. That's the person representing supply of staff or resources to the project project manager down here, a line of authority connecting them and a line of authority connecting team managers as well. So there can be lots of levels beyond this. If you want to, you can structure this however you want. You can see it's a hierarchical breakdown of authority. So it's bureaucratic and in fact it can be more layers of bureaucracy. If the board is too busy to have a conversation with the project manager, there can be a separate change authority, which is like a mini board that sits at the side of the board that can make decisions that the project manager alone shouldn't be allowed to make, but they might have a slightly bigger remit to allow exceptions in certain situations just to make the whole thing more responsive. Because if you're a project manager, you need road approval for things. The last thing you want is to have to get a meeting with the CEO, and they're too busy for three weeks and you can't actually have that meeting, and the project is stalled. So it's really important that this bureaucracy doesn't stall a project, which is where a change is already comes in. There's a similar kind of thing called project support for team to support teams and help help with that when the project manager may be too busy. Um, and also just to provide additional additional cross cross project support. So then maybe this project support might serve multiple projects. For example, there may also be project assurance divisions that will sort of report back to the board that things are going going properly. Things are being done properly. Things are being done by the book. It's cutting corners, keeping a check on the project manager. So there are more bureaucratic levels that are often added into projects, which again, may give to a bit of a worse reputation. Unfortunately. Here's a slide with lots of prints, two rolls on it, and their details. I'm not going to read this slide to you. It's something that you can read in your own time. It's kind of roughly explained it verbally just now, but do consult this slide when you're revising to make sure you understand what all these different things are. Important ones are the board, of course, and realising that the project manager isn't on the board, they report to the board. That's worth noting. Okay, so Prince two has seven principles. As we've said, follow seven processes. There aren't seven roles, unfortunately, but there are lots of roles. And there are also seven themes. You can think of the themes as being a bit like the knowledge areas, and we'll talk a bit through the themes. Now, these themes I think are a bit redundant. I think they overlap very strongly with the principles and they just annoying. You've got to sort of remember a different list of certain things. So they are business case. First team aligns with that first principle of course. Question of it covers things like the feasibility, the desirability, the achievability of the project, an organisation theme that obviously aligns with roles and responsibilities. Principle, equality theme. So I suppose it's worth noting that Prince two focuses on products and therefore defines the requirements of those products very clearly. So quality is an important element of a principle project. A risk theme explains sort of how risk is managed in principle. World plans theme. There's obviously a lot of planning each stage boundary. So therefore this tells you about how to do plans change theme Prince do doesn't feel like a like a situation. It doesn't feel like a methodology where change is embraced. But there is a theme called a change theme, which provides processes in ways for for making change where it's necessary. And finally a progress. The. It's really important to measure progress in order to achieve success in a project. So progress is again also an important thing too. So some of these align quite strongly with the principles, some of them not so much. So I thought it might be worth thinking about that in a moment. So how does this work. So you've got the principles underlying Prince to I suppose that's why it's drawn this way. And then I in some ways these principles are kind of intersected by these different themes. But I think really is probably a 1 to 1 mapping between the business case piece of pie and the principle for. So I don't think this is really an accurate description for some of these things, like change or risk. Maybe they do intersect multiple principles. So it's not a 1 to 1 mapping but it's. Yeah. So I don't know. I don't know if this diagram helps. If it does, great. If not 90. Um, so I thought it might be worth me just sort of showing you how I think these align. You can maybe figure it out. Does that mean yourself? Business case, continuous business justification. Organisation team. Defined roles and responsibilities. Quality theme with products. The risk theme. How does Prince do manage risk. Now this is perhaps a theme in its own way, a little bit more complex than the other themes. So risk is managed through managed by stages, because you're not just doing a waterfall project where everything's at risk of going wrong. You do it in an iterative way. So that's one of the ways of risk being managed in Prince do. And the fact that there's tailoring going on allows you to if it's a high risk project, you can do a lot of bureaucracy and a lot of paperwork. If it's not a high risk project, you can do less. So that's maybe the risk theme plans, plans underpinning a lot of what Prince do do. So you'll probably have a document logging the lessons learned. We probably have a document logging the plans for each stage. You've probably got documents detailing the specifications for each of the different products. So plans kind of do intersect many of the principles I would say. The change theme and manage by exception, I think are quite aligned because in fact, I've written a note on here to remind what to say here, so I don't say the wrong thing. Yeah, I suppose reacting to problems is what requires you to to make changes and manage by exception is how problems are handled and reacted through that exception process and finally progress. So I think I've said progress is made in stages. And also progress is made because you're managing by acceptance. You're not impeding progress by micromanaging. You're allowing the progress to continue until there's an exception. So yeah, that's a bit of a mess. So it's not 1 to 1 cleaning, but it's also not like a many to many events. It's kind of a bit of a bit of a mixture. So I don't know if that's helpful or not, but that's how I kind of tried to make sense. Of the two different lists, you can see that some of these are perhaps more important or more pervasive than others. So these that was printed too in it, in a very rapid nutshell, nutshell, the roles, the processes, the themes and the principles. So now I've got a picture of some toilet paper here, because I think the prints, one of the prints two products is it's paperwork. So even considers the paperwork. You produce a product of prints two and you might consider that to be toilet paper depending on your stance on. All this stuff. So what is product based planning? What? What I'm talking about. What's a product? A project delivers a product. We talked already about deliverables. The same thing. A product is a deliverable. It's that tangible, substantial, estimable chunk of work that someone could easily specify and produce. The product didn't deliver the activities to produce it. It delivers those products. And that's really important. That Prince to Prince really emphasises focusing on that. Um, because he wants us to be able to write product specifications. Product specifications. It wants us to focus on the quality theme and define the quality of those things. So the quality is the is the detailed requirement specification of something. How does it do it? Through some documents. There's a thing called a product breakdown structure. Sounds like a work breakdown structure. Because it is. It's the same thing. It's just a very strictly deliverable oriented work. Written structure. Product descriptions are the specification. They're the criteria for what we're going to make. A product flow diagram is basically just a network diagram of dependencies. It's basically a Gantt chart. Right. So they just they just call it product something. But it's really just the same stuff that we learned in the PMBoK approach, just with slightly different names. They love this idea of focusing on products. And I think that's that's okay. One of the managing products though of course, is the documentation you have to produce. Um, and I think, you know, it can be seen as one of the biggest problems with Prince. Do all the paperwork and all the all the red tape. Um, now, of course, because you're tailoring to suit the project needs, it could be instead of a document, it could just be a row of a spreadsheet. It could be a presentation or a video or a stand up meeting or something like that. That could be the thing you deliver, but it's something that you can tangibly produce and measure you. Um, so these are all the different kinds of management products you have to produce. If you're doing a project. You have to produce records. Now there's some terminology on this slide. A record is a data structure just like these other things. So a log is a data structure that you're constantly adding to. It's not a data structure where you're modifying rows. It's one that you're constantly appending to. So it's like an append depend only data structure. Perhaps you've got a daily log a lessons log. These are ways of recording what's gone on, just like an audit trail. And an audit trail is very useful in any project because if something goes wrong or someone is to blame, you can pin down who did it. Why? Who said what? That's that's useful in large projects. There's another kind of data structure called a register. And a register is is like a row in a spreadsheet. It's a box, a cell where you can enter information and update that information and continuously change things. So for example, there's an issue register where if an issue arises, you'll add a row to your spreadsheet and then update that that that row of the spreadsheet as the issue status changes. So it's kind of it's like a record where there's sort of a status update needed. Another kind of document in two is called a baseline. A baseline just means a document that's versioned. So obviously when you're doing planning on a large scale, you'll write a document and then you'll update that document as the plans change and you'll keep iterating on that document over and over again until you get a final working plan that will keep on changing. Just like your project, spec will probably become the blueprint for your progress reports. And finally, your dissertation. You'll be reusing a lot of that material. You won't be starting from scratch. So some of those documents include approval documents, documents that you need to give to the board for them to sign off. I won't talk to all of those, but you can see some of them on the slide there. There are documents such as management strategies, such as how we're going to manage risks in this project. How are we going to manage the communications in this project? You might define those documents upfront early on so that your board can approve of the way you're going to do communication and project plans, of course, are things that keep evolving and adapting. So they're also baselines. And finally, finally there are reports, things like stage boundary report, end stage report and the project report, things that kind of summarise what's happened, useful for learning for the future. And there are reports when things go wrong so the board can have a look at that as well. So lots and lots of documents I think is the is the moral of this slide. Here's a slide showing all of the documents or actually putting it all of them. But many of the documents you might encounter in a principal project. So you can see there are a lot there are a lot of them. I should make clear, though, from this slide that there may be multiple stages, right. So it might look more like this. So there are going to be documents all the way through the project. For simplicity I'll show it like this. And you'll see this this slide popping up throughout this course. But do you remember that the execution stage is not just one stage? There are multiple. There could be many of them. Um, so I'm not going to talk through all these documents, but there's something you'll get familiar with if you work through, um, one of the things I'm going to talk about in a moment. So is there too much paperwork? Maybe. But remember that you can tailor to suit the project needs. So Prince two wants to be adaptable. It wants to allow you to to adapt. Um, I find these slides very boring, so I'm just going to sort of rattle through them quickly. But it's probably something for you to, to look at. Um, for each theme there are lots of documents. Right. So for the business case theme, there's the outline business case. There's the business case, which is probably just a more detailed version of the outcome of business case. These are documents again that continue to get updated in the organisation theme. There is a document detailing who's who's who in the plans theme there is the project plan, the initiation plan, the next stage plan, the team plan. Lots different plans because planning is a book, that's how you avoid mistakes. In the quality theme, there are product related documents, so a product description which defines the deliverables, what the expectations are a management strategy, a product description, quality register, loads, loads and loads of documents. This is you know, it's a huge number. Um, I'm not expecting to remember every single document, but you should understand why they're there. I think that's that's important to realise that there is a reason behind each of these. They're not just there just to make everyone miserable, although it does have to affect, um, the progress team has has plans, has document as well. So progress reports, exception reports. That's how progress is made through through this managed by exception principle. The risk theme is perhaps less document oriented. There's a risk register where issues are logged, where risks are logged, where the response to those risks can be handled. The risk process, in principle, is to first identify what those risks are, assess the probability and impact plan responses to those different risks that have been identified, and then if the risk arises, implement the planned response and communicate. Write pretty obvious cycle. We'll come back and talk about risk in lecture nine I think. So I'm not going to talk about this in detail now. But there is a process here as well. There are there are defined methods for how to do things. Similarly. There's a change process. When there's an issue it's captured. It's recorded in a in a register somewhere. Um, you assess the impact, you propose solutions, you decide to escalate it, perhaps through an exception report to the board and then implement. So again, there's a process for change. Now, some might argue that the process of change is useful because it stops people just trying to change the project. If someone says, I've got a good idea, let's have this scope creep is actually really hard in a prince to project, because you have to go through this change theme, and that can actually be really useful for a project manager to avoid that scope creep, because scope creep. Really cripple the project and you've got to fix deadline. Fixed budget. You don't want to be dealing with last minute changes, so even even stops the board from sort of just making up things that they want to add to the project at the last minute. You can sort of say, oh, can't do that. We've got to go through the change thing. We've got to add it to the issue register. We've got to go through the process, and it gives you kind of that ability to to say no, which I think is a useful thing for a project manager to be able to do. Okay. So that's enough of me talking about these, these, these quite boring documents. What I think the best way to learn about these is to work through an example and see how this works. So there is a thing called the Pen project. It's a it's a fully documented print to project. It's on Moodle. You can download this I recommend the PowerPoint version rather than the PDF because I've made it interactive. So you click on the document and then see it, and then we'll take you back to the main page. And you can click through each document and see how they kind of it builds up the different details. It's probably more fun to see that. So this particular project is a very unexciting project. It's someone has decided to give pens to their clients to try and increase the customer retention. So it's a very simple project. I think it was probably excessive to have done it using print too, but it walks you through the different, different elements of doing a project. So I really recommend you have a look through that on Google. Okay, so before we have a break and then I'll hand you over to our guest lecturer who's in the room with us now. Do you want me to say anything rude or say anything funny in the comments? I want to ask you the question does Prince to help projects to succeed? Is it the silver bullet that we've been hoping for? Is it going to make sure that our projects are guaranteed success? Should you of all have chosen to do your third year projects using Prince two? So I'll show you a graph. This graph is a success rate for NHS projects group by methodology. Look at that Prince two think 66% success rate when they used Prince to all of the projects down in the 33% success rate. So clearly Prince two is working.
+
+SPEAKER 0
+Um.
+
+SPEAKER 2
+I think you could probably review this more critically. Why was Prince two chosen for some of these projects? You know, this perhaps isn't perfect data, but the numbers are the numbers, right? The Princeton projects have a reasonably high success rate compared to the model project, so there is perhaps some value in this data. I'll let you make critical judgement there. So with numbers, prints twos looking good. And in this slide I presented at the start. These are the common criticisms of prints due only for large projects. Constrained. Inflexible to much paperwork, not solution oriented. Bureaucratic. But of course, now that you've learned about the principles of principle, you can say, well, of course it's suitable for any kind of project because it can be tailored, it's fully scalable. And if someone says it's constrained, you can say, no, it's step by step. It's not constraining at all. It allows us to work in iterative cycles, just like agile. If people say it's inflexible, you can say no, it's actually iterative. And there's a change. Theme embraces change through its very theme the mountains of paperwork. You might say, well, actually, that paperwork is really useful. It provides an audit trail. It means as a project manager, I'm not being sort of buffeted around by egotistical board members. So it can be useful. And anyway, you can tailor that paperwork to suit your project. So only do the paperwork if you need it, right? Those who criticise it for not being solution oriented will say, well, it's product oriented. That's even better. I don't want, you know, arbitrary hand-wavy solutions. I want products, I want deliverables. So, you know, that's a good thing, right? And those who say I don't like bureaucracy, they say, well, I do. I want to be in control. So it's meant to be more resounding. Didn't work. You know, control is sometimes really important if ever you've managed to if ever you manage a project where you haven't got control and things start to go wrong and you know you can't manage your team and you can't manage the your superiors, you're lost. Right? It's really stressful, right? So having control of us over both downstream and upstream can be really useful. And it gives the manager those tools. And of course, it's not that bureaucratic because it's managed by exception. So actually you're not telling people how to do their jobs. You're letting them get on with their job within within those bands that you've said. So for instance, is actually pretty awesome, right? So this is this is my this is my state. This is my assertion. Prince is a versatile, scalable methodology that allows teams to work effectively whilst ensuring the project is kept under control, increasing the overall probability of project success. So I hopefully have convinced you of this. I'm going to ask you. There's no right or wrong answer here. Tell me what you think. You strongly agree, agree, disagree or strongly disagree with that statement. There's no right or wrong answer. I should I should assure you that.
+
+UNKNOWN
+You can it?
+
+SPEAKER 1
+Neither. Disagree.
+
+SPEAKER 2
+You can't put it on the fence. A lot.
+
+SPEAKER 1
+Of things.
+
+SPEAKER 2
+Okay, I'll give you a moment to get your answer in. He lost. Some members found who died? Maybe. I'm going to go down to the side. Okay, I'll stop the poll there since the numbers have stopped moving. Okay. So let's see if you agree. Okay. Okay, fine. I'm fine. I'm not. I've not been as persuasive as I have in the past. Last year I got all strongly agrees. I've obviously faltered today, obviously let slip a few things. I don't believe in that sentence either, so there is some truth to it. I think in principle, Prince too, can be a lot of those things. I think it aspires to be those things, but I think it's also got a lot of challenges. I think in practice it can be very much harder than I've let on. And luckily we've got a guest lecturer with us today. He's going to give us a flavour of what Princeton is like in practice and tell us where things go wrong. So what we'll do now is we'll take a ten minute break. We'll resume at five past if everyone's happy with that. And I'll be, in fact, before we go, maybe I'll do the questions, see if there are any questions coming up in the feed. Yes there are. Okay. So apologies for the microphone. Is it actually working though. No. You've fallen asleep at the back. It is working okay. Good. Yeah I'm sorry about the microphone. The other microphones got frayed wires, so that's even worse. Oh yeah. Okay. And then the lives of the people. There are people at home. Um. Thank you for answering my question. Is the sunk cost fallacy ever a factor when a project can no longer be justified? I think I think it's important to when a project is no longer justified. I think you just need to do a calculation, you know? Is it worth doing the remaining work? It's just, you know, imagine the rest of the work being, you know, needing a new business case. What is the business case for doing the rest of the work, if it's worth finishing the work to, you know, recoup some of those losses, then then do it. But if there's no business case in doing it, then don't you know? I think that's the way to look at it. Forget about what you spent already. Forget about what costs have been sunk. Think about what costs you need to spend and what benefits you'll get. You realise from those. And it's a simple economic question, you know, is there a financial gain to be made? Okay. What it always meant by management exception managed by exception means you manage in exceptional circumstances, but otherwise you let people get on with their job. You don't micromanage. It's the opposite of micromanaging. That's what is meant by management exception. This is great. Now the questions are already being answered in the in the chat by other people. This is fantastic. Do my sort of. There's a backchannel going on. What is what is DP that's directing. Yeah that one's already answered. What's the significance of the monitoring controlling not encompassing. If not, it's not significant. Oh! It's working. Hey. Fixed it. Simple as that. Okay, so, yeah, there is no significance. I think it should be the case that monitoring and controlling encompasses the execution of the work. The people at the team are doing the work. The monitoring and controlling is happening in parallel to that. You don't monitor and control the planning. I. Sorry. It's going wrong again. It's better when I'm standing behind the table. Although we are. It is evidently now.
+
+SPEAKER 4
+Okay.
+
+SPEAKER 2
+Do I believe that by saying there's a change theme means that Prince is actually good or better at adapting to change than other things? Or is it just a meaningless buzzword? I'm going to leave that question for our guest lecture to answer after the break. So I'll see you all at five passed, hopefully with a working microphone as well.
+
+UNKNOWN
+Okay. It's working.
+
+SPEAKER 1
+You got a smaller class this year?
+
+UNKNOWN
+Yeah. Is it loud enough? If you don't.
+
+SPEAKER 2
+Now this what.
+
+SPEAKER 1
+It might be, I bet you. I bet the people picking up on here.
+
+SPEAKER 2
+So I think when they. They're not supposed to do. But there's this one here called, but that's got a frayed wire.
+
+SPEAKER 1
+Have you called me the team?
+
+SPEAKER 2
+Yeah, I could do it. I could press this technician button.
+
+SPEAKER 1
+That's turned on now.
+
+SPEAKER 2
+I see. I think they turned off automatically. Maybe that's. If you take it outside of the room. Mr.. They might disable them just so that people can't. Well, that wouldn't surprise me. I could pull that out.
+
+UNKNOWN
+The problem is that Y is all right there.
+
+SPEAKER 2
+There we go. Not. At least we won't get any static filled up. Maybe that was the problem. That one is the other one, Fred. No, the other one, isn't it?
+
+SPEAKER 5
+So I don't see that.
+
+SPEAKER 1
+Because that's where we are. Oh, well.
+
+SPEAKER 2
+I think this one could be causing some feedback. Maybe that one's now going to be okay. Yeah, we're going to try. So yes what I've got is so I'll control your slides so you can just unless you want to do it yourself I'm not.
+
+SPEAKER 1
+Particularly fast.
+
+SPEAKER 2
+Okay.
+
+SPEAKER 1
+Yeah. My my slides are more there for a visual placeholder than anything else. Yes, yes. Um.
+
+SPEAKER 2
+I should say the camera is from that side of the table to here. So the camera, the camera picks you up. If you go from here to here, this side of the room, I stay right here. If you stand there, forward and backwards.
+
+SPEAKER 1
+If you have some time. Yeah, it's a very short notice.
+
+SPEAKER 0
+Supply for your medical school. Oh, yes. And I need to address that.
+
+SPEAKER 2
+Oh, yes. Okay.
+
+SPEAKER 1
+And have helped to design.
+
+SPEAKER 0
+Making it more.
+
+SPEAKER 1
+Because it's meant to be one for. I see. Coffee.
+
+SPEAKER 2
+Just for me. Yeah. What? What? That's a lot of talent. Because she's. She was in the medical school, so she might even know what they're looking for. It's got to go.
+
+SPEAKER 1
+It's got to be on TV. Right. Okay. Whatever. What time is it going out? Probably 830.
+
+SPEAKER 2
+Yeah, that should be fine.
+
+SPEAKER 1
+Yeah. I'll take a look once.
+
+SPEAKER 2
+Take a look at the quick turnaround. Yeah.
+
+SPEAKER 1
+It's on deep prescribing, which I know. I'm trying to. Not just white text. So I don't know. Do you really want to the teaching job? Okay, okay. Just leave the teaching. That's right. She does a.
+
+SPEAKER 2
+Great job for the next 30 years. Right? Right, right. Well, that sounds good.
+
+SPEAKER 1
+That sounds good.
+
+SPEAKER 2
+She's struggling. Did you check the number about the medical school for five years or something? I have some good insight of who to speak to and.
+
+SPEAKER 1
+Yeah. What is. Okay. That's good. Let's do that for 2.1. Yeah. Yes, yes. It's only one of those. Sure.
+
+SPEAKER 2
+It sounds great.
+
+SPEAKER 1
+I hope. I hope she does.
+
+SPEAKER 2
+I mean, the only thing to.
+
+SPEAKER 1
+Get me 93 votes.
+
+SPEAKER 2
+Oh maybe not. Then it seems like they're actually genuinely recruiting for real.
+
+SPEAKER 1
+Oh, that sounds great.
+
+SPEAKER 2
+Well, I hope you get more than happy to have a look if I've got chances. I've got to get back home now. You get 730.
+
+SPEAKER 1
+To look at it. You've got to skim over just just to see kind of format those. Yes yes yes yes.
+
+SPEAKER 2
+What level is it to teach.
+
+SPEAKER 1
+Medical.
+
+SPEAKER 2
+Students? And they're not making a provision.
+
+SPEAKER 1
+I just want him to.
+
+SPEAKER 2
+I just check in if you've got the ability to produce.
+
+SPEAKER 1
+Produce. The filter? Yeah.
+
+SPEAKER 2
+I think that's that's probably primarily what the looking for. I presume for the offering to do this thing if the CV is good enough.
+
+SPEAKER 1
+Oh, she's she's already been.
+
+SPEAKER 2
+This is for the interview. Okay. We're doing this as a filtering step.
+
+SPEAKER 1
+If it's not. No, no, no for the interview.
+
+SPEAKER 2
+They are they going to ask your questions about it? Maybe.
+
+SPEAKER 1
+Probably I think I think to an extent I wonder if they're going to.
+
+SPEAKER 0
+Test her medical knowledge.
+
+SPEAKER 1
+But I think also.
+
+SPEAKER 0
+How she can compare in.
+
+SPEAKER 1
+Students. I remember when I was, when I. It happened because I was teaching.
+
+SPEAKER 2
+They grilled me on teaching excellence framework and all this kind of stuff I didn't know anything about. It's just about defending it confidently. I don't. Sorry. I'm not an academic. I don't know, but I'd love to find out. It's quite the enthusiasm, more than actually knowing smell. See if this is the bureaucratic, bureaucratic side of education, perhaps. What? I think we've got one minute. Okay, so I'll let you answer that question.
+
+SPEAKER 1
+Which one was that? Well, you don't want me to answer that question.
+
+SPEAKER 2
+You want to come back and answer at the end if you want to.
+
+SPEAKER 1
+Um. Let me let me go through my presentation. It was a pretty cynical half of that question.
+
+SPEAKER 2
+Yes, I think that's a good move.
+
+SPEAKER 1
+Slides on again.
+
+SPEAKER 2
+Okay. Yeah. So you can start in 30s. So I'll just sit over here, but I'll fix these lines when you.
+
+SPEAKER 1
+How are we doing there on the mic? Is that any better for anybody? No. Where's that? You've got to use the mic for the live feed, don't you? It's just not okay for the people in here. I can speak loud enough. That's no problem. Yeah, well, we can start. Okay. Hi. Good afternoon everybody. My name is Kevin Williams. I am it says that I'm a consultant. That is a very fancy way of saying I do project management. I am a cyber security expert at the project for government, Private Business, a couple of other places. And I've been doing this for a while now, and I've been searching for anything four years, five years now, five. And I tend to take a slightly more cynical.
+
+SPEAKER 2
+Approach to.
+
+SPEAKER 1
+What Ian has just covered in your last lecture. That doesn't mean that everything you've just.
+
+SPEAKER 2
+Heard is just.
+
+SPEAKER 1
+Throw it out the window. It just means what I want to do is to try and have a bit of a conversation about what it's really like to use this. So if at any time you need to ask for your thing, it's a bit on the question thing. There will be some parts where I ask you to interrupt me. That's fine. Can you go to the next slide, please? So without trying to rehash your entire last lecture, what is project management? The first one up there is the supposed official answer the act of initiating.
+
+SPEAKER 0
+Planning, executing.
+
+SPEAKER 1
+Blah, blah blah. Project management is not a skill that can be learned in a weekend, even though it says that it is a skill that you learn over time. But quite frankly, the fact that each of you has managed to get up in the morning after whatever you did last night, get dressed, come here, sit here and attend this lecture, not fall asleep. So you are done. You are all project managers. Project manager is moving from one place to another, making something happen. Either you do it, you get somebody else to do it. You get 10 million people to do it. That's what it is. Some people think project management the art of turning chaos into order in. If you wish to be philosophical about that, feel free. And just because it's near Christmas, project management is a fancy term for making a list and checking it twice. There are lots of different project management techniques you've just learned about Prince to this agile, which some people have heard there is now Prince to agile. Go figure. Kanban mean waterfall six Sigma. All of them are different. In fact, out of that entire list, the six Sigma one is probably slightly unique in that six Sigma is usually used in things like manufacturing, where you are looking at standard deviations and machinery and things like that, and that is a little less. Emotive if you like. It is quite an obtuse system. It is mathematical.
+
+SPEAKER 2
+You know, if.
+
+SPEAKER 1
+Your standard deviation is off standard deviations or full stop, you can't really fight against it.
+
+SPEAKER 2
+I don't really have a.
+
+SPEAKER 1
+Problem with Six Sigma. The others there are problems. So excellent. So is it an art? Okay, so you asked earlier about the question about project failures. Here are three. So come from the United Kingdom. These are real. They are true 100%. But for transport shared services centre. And these all incidentally from what I what I know I didn't do them, but what I know they're all huge prints do they wanted to consolidate the department finance and financial systems £37 million saving it costs £81 million. Oops. Common agricultural piece. Got to be 155 million. Yeah, 215. There's one that I haven't put on there. It's a little dubious about the political politics of it, but anyone heard of HS2 or did HS2 start at 350 million ish? What's it at? Official figures a billion. Unofficial figure is 4 billion. Why? Okay. The last one, the Liberal one again funded 46 million, renegotiated to a £319 million. Okay. Projects go wrong all the time. I always like that slide that you have about the NHS ones in the Prince too, and all the rest. Um, it's very selective statistics used there, but yes. Go to the next slide please. So why do projects fail? That's why I go on to talking about why I think projects fail. Anybody here wish to try and give us some reasons why the projects for example factors Kosovo's inflated. Let's forget cost for now anyway. Poor communication has definitely a good reason for communicate. What? What aspect of communication.
+
+SPEAKER 2
+Ensuring that everyone.
+
+SPEAKER 1
+Needs to do something actually doesn't hurt and understands what it stands. And ensure that everybody who needs to know of what is happening in the project or what is what is to be delivered understands that and presumably can use of that. Okay. How do you explain to somebody, if you are rolling out a new piece of engineering to reconfigure the acoustics in this room? How do you explain to every single person in this room what that is, if they're not all engineering students? But I'm not saying you're wrong. I'm saying that that is absolute reason why things fit. A very good one is the database. They every government for the last 20 years has tried to create a single NHS database. In case you didn't know, you got your GP over here, but you go to the GP in Cornwall or sorry, forget GP, he's got a hospital here, the Warwick hospital. You go, you break your leg. Everything else, you go to Cornwall and you're having a review of your letters. They can't see your information. They receive it via fax, literal fax. Nobody knows what a fax is because it's a generational thing. It's a sent via telephone or it has to be posted. We don't have one. So everyone tries to create the central database, but everyone is afraid of the central database because of communication. On the one hand, the medical people, the research people say, well, we have one database. We can all communicate, we can share anonymous information for research for universities. Wonderful. And then somebody said, but hold on, a private company can do this and this and this, but this want to say that you're going to say that. And there are so many people who do not understand the purpose of what this is not saying that it's right or wrong, but they don't understand the purpose and therefore it fails. Great. Anybody else? Any others? I don't know how to check to keep it off. Nobody talks anything about this. Oh, absolutely. You have to listen to me. I am the authority on this. No, as far as I know, you don't even know the name of this. You know, that doesn't mean switch off, please. Any other reasons.
+
+UNKNOWN
+Of how much I want?
+
+SPEAKER 1
+The stage for estimation of how much, how long a project will stage, or something that may require. Absolutely. Estimation by definition, is not accurate. Anybody else? Okay, let's move on. Let's go to the next one. So in my opinion, why do projects fail? These are my the four most common things I see every single day a failure to understand the why. Why are we doing this? Let's go back to HS2. Why are we building HS2 now? If you ask somebody in 2015, I think yeah, 2014 was one of the sound. They have an idea of why they doing it then. 2016 a change in 2017 checks 18in 19in today's change. Why are we doing it. We don't understand why we're doing it and so it's going to fail. So we'll get we'll get through. How to counter this? Sorry. A failure to understand the what? What are we delivery. Just going back to the time because it's actually a fantastic examples. What is to deliver. So most people don't realise that the way the railway network is privatised the rolling stock of trains is owned by the government. Sorry, it's not the rolling stock. Yeah, it's a rolling stock change over the government. The franchise for running that train. Privately owned. The tracks are owned by a sub government entity, but some tracks are not. So what are we delivering? Is the government delivering a whole service apart service nobody actually knows. And what ends up happening when you write in these contracts, you do these projects, you get confused. Again, I'm not blaming them. It was an enormous undertaking. It's failing for lots of different reasons. But I don't believe that anybody really understand what is being delivered properly for the project. I see my favourite to a failure to use common sense. The problem of common sense is not very common. Okay, I have personally experienced have some works done on my house they're building and some bricklayer comes in and you give them a cup of coffee and he starts doing the brickworks for the walls and everything. Learned to hold the windows, turn it up and you look for it. What am I supposed to do with those? What's the point of the windows being here, looking all over me? You can't put them in common sense. Who ordered the windows so early as it happened, or was the brick later? He was the building contractor and I laughed at him. But that happens all the time. That's not. That's not negligence. It's a mistake. It does happen. But people often forget their common sense. Another 1st May be anybody going to. Coventry railway station, country road station just bought a lovely brand new car. It's actually quite impressive. Great big, big seven eight story building that when opened, they had to close the car park for the first few weeks. When you turned in, they calculated the angle of the car was based on a simple model car.
+
+SPEAKER 0
+And little.
+
+SPEAKER 1
+40. What do many people drive? Big SUVs? Turns out.
+
+SPEAKER 0
+They can't turn.
+
+SPEAKER 1
+Around. Common sense. Why don't you base it on that? Why don't you go for. Why don't you base it on the largest car possible? Because then all smaller cars will definitely remain. Who knows? I wasn't part of the project. I could be making it up. I could not be. I don't know what they were thinking. But to me, that is a failure of common sense. And the last one is someone's ego gets in the way. So you had a lovely bag of all those documents there. You have to learn them for your exam in real life. I guarantee you will not use every single one of those documents. Quite frankly, for some of you and I looked at the moment. What is that? I didn't know. It is the biggest challenge. If you are a project manager, your biggest challenge is nothing. Through the budget, communications, everything. Biggest challenge is the human ego your own and everybody else's. If every single person in the room followed the methodology strictly, you don't have to worry about it. It doesn't happen like that. Okay? When when we say, oh, you got change controls and everything, so you can't have scope creep.
+
+SPEAKER 2
+I'm not sure if any of you.
+
+SPEAKER 1
+Are going to become project management program manager. The first year in your board, your chair of your board happens to be the CEO of the company. And they say to you, we're changing direction, and I'm not. And I want to take control on my document, on this, on this. The CEO didn't tell you until you get stuffed. It's hard because then your project could fit, and probably very likely because you have a scope creep. It happens. It's very, very difficult thing to manage. We will go through ways to manage it. So how do we avoid the project failures based on these things? You need to balance your tools with your own experience and your own intuition. Okay. You guys, your third year comes out here. You guys are third year, so most of you had some form of life experience. Presumably you're here today. You're adults. You must have had some life experience. There are things you've done in your life. There are risks you've taken. There are accidents you've had mistakes you've made. You've learned through university as you go into the real world and you work, or don't work or work for whatever you choose to do. You will make mistakes and you will learn from that. Transfer those. Never be afraid to take your own experience into a project, okay? Now, that doesn't always mean that you're the smartest person in the room. You've got to listen to your experts. But if you have an intuition and you have experience, use it. Challenge stakeholders. I did talk about a CEO saying that, and of course it's all what I can do and asking for us to say, oh yes, yes, you must challenge and everything when you're living paycheque to paycheque and you've got a risk of losing your job because you challenge a CEO, are you really going to challenge them? Probably not. Very difficult. Manage your risks practically. Okay, now this one I've thrown in, which is a different blast. Actually, this one I've thrown in because it's something I'm picking up a lot in a lot of the work that I do. People feel that risk management is I've gone into the system, typed in the risk. There is a risk that there is an issue about blah, blah, blah, blah, blah. Submitted. That's it. Done. Scuffed coffee. That's not risk management. That is risk avoidance. Practical risk management. If before you type in that risk to whatever system for you, document for you say, I'm going to take these actions to get rid of this risk stuff and think there anything practical I can do. So let's go back to my windows situation. My windows. There is a risk that if I leave them on site whilst they're doing all the other work because they're not ready for them yet, they will break, causing further delay and further financial issue. So could you say, could you show us all about your problem? Well, I could practically. I could probably store those in my garage. Keep them out of the way. There's a practical solution to the. Without having a doctor without having to ask. You can still document an estimate, and therefore then your doctor becomes there's a risk. And the mitigating action we have taken is a risk. Now you live in the garage if you still get broken, of course, but try and find practical ways before you start documenting those and avoid the dogma trap. Now the dogma trap is again something I found a lot of these days, people saying. So Ian mentioned earlier in the lecture that exception. And you know, you don't have to use all the documents, tailor them and everything else. You will encounter people who will religiously want to follow.
+
+SPEAKER 0
+What it says.
+
+SPEAKER 1
+Some people are just like they like the structure and they like it in neat rows and everything. I am somebody who I avoid documentation like a seminary. I hate those doctrines. They are annoying, but they are useful. There are times that it protects you. If you have documented those risks that we talked about earlier. If you've documented changes in documented change. Then when it fails and somebody has pointed the finger at you, that's your evidence to say, oh, I didn't cause this. So they are interested. But you've got to avoid the dogma trap, the dogma being getting yourself so bogged down in trying to follow every single principle there is that you actually missed the actual delivery. Obvious happened. Okay, so put those up there as well. There's Smart goals. I have them, and I'm not a big fan of these acronyms as solutions type thing. There are millions of these things out there. However the principles of these two are actually quite good. The Smart goals. You know what exactly you're trying to achieve. What you said earlier what is the why the it? How do you know when you've achieved it? What are you doing? Those sorts of things being clear, collaborative, emotional, refining, all those sorts of things. Part of the communication. Those are just some things you can do. So seeing as it is late on a Monday, sorry, late Monday, let's make sure it's also a way to do the next one. So I have a couple of case studies for you to go through. So I'm going to give you about five minutes to read through. I just keep on making some comments as well. Have a good read through that and we'll go through this two included in the bonus one. So in this one here, we're trying to roll out all staff information security training at a at an organisation. And by the way these are all made up. If anybody tries to say I'm talking about my clients and stuff please don't. So your project manager using print to you've got a board, you've got the director of it, senior users the users projects in flow. You roll out your training. All of a sudden there's a 250% increase in service desk calls through the roof. That's a very large increase. Saying that there's problems with the quality of the training, the difficulty level, its accessibility, what went wrong? Okay. So talk amongst yourselves. See if you have a discussion about it. Have a think. See if you can figure out what went wrong there. Here we go. Can you? Can you get back to the comments again? I think it was really necessary. Anybody brave enough to hazard a guess. There is actually an answer on this one. Up there. So I can't give you a first in this course because I have the authority to do so. But I think in the last five years I've been doing this as the first time somebody got it right. First time. So his answer was the people that they used on the board only represented the technical experts of that area. They did not represent their user base. This, and it is by far one of the most common mistakes we make it. People talk to it, people about it, stuff to plan it and deliver it. We are incredibly bad at speaking to muggles and no one pieces none of us we. It happens all the time. So your job as a project manager, you are there in the middle. People often conflate it. They think I'm in charge of everything. You're not in charge of everything. You are there to make sure that all voices technical and none are heard in your project. Okay, always got to remember that. And if you want to do a Start-Up business one day and you want to sell something, you don't go do your your user research, your product will fail. It's exactly the same in any other project. What? Why are we doing this? Well, we're doing information security to protect the organisation. What are we delivering? An online? Learning to who? All the people out there. Okay. Anybody spoken to all the people out there? No. Well, there you go. Okay. Well, better. Excellent. Yeah. Make it harder. Make sure you okay. Next one for you. Okay. This time around, we're procuring a new finance system again. Prince to director of finance is chair of senior users and users from across the organisation. The project is complete and procurement. We identified a preferred supplier and the next board presents procurement. Scoring recommends that supplier A is chosen based and should check you understand what procurement scoring is. Let me explain that quickly. So more in the public sector than the private. Plus it happens in the private world. Where do you go to market and you wish to buy something usually over about £100,000.
+
+SPEAKER 2
+You usually put it in a tent.
+
+SPEAKER 1
+So you basically set up a requirement. You push it up to the market and people bid and provide responses. But that scoring has to be objective. You have to score each one one at a time. Obviously, you know, if you get 5000 applications, one, you do it very quick. One is to say top five and then score those. You score those objectively. You tend to not consider the cost to start with, because you don't want that to conflate your views on the technology or whatever the services that the providing score about to score that, then you score the costs, bring them in, bring them together, and you look at the score and hopefully, if you're lucky, you get one that has met your acceptance criteria and scored highest. And that's the one you go for first. It is rare. Every so often you get two companies that are scored equal. That's always fun. You can then go fudge your numbers. Please don't. Or you basically interview or you send clarification about them. So that's what's happened here. We've scored here. We've said somebody one we said supplier is chosen. The entire board agrees. However, the chairperson feels that supplier B should be chosen. Chair makes the case choose slightly and the discussion follows a bit of an argument. A bit of a public score does not apply. Following the discussion, the chair decides take chairs action because sometimes when you set a project board, you give chairs chairs action where they can overrule things and they decide to instruct the PM to go to supplier B, now it. Uh, can you guess that's one of them? Okay. Anybody here want to give it a give a view? What do you do now if you're the PM?
+
+UNKNOWN
+Uh. Must go. You want to?
+
+SPEAKER 1
+It's okay. That's not a bad idea. Anybody else can come back to that.
+
+SPEAKER 6
+Find out whether you went to school with you.
+
+SPEAKER 1
+I can tell you this one I worked on. I know this this is a somewhat true one. And this person, the director, four years later became the CEO of the company. So yes, that's. That does happen again. Egos. Anybody else? Which one of you would be brave enough to tell them? No, that's not what the thing is, right and isn't. Good for you. Hold on to that. Hold on to it. It's really hard. Really hard to. Okay, so if you go your route. So what the answer was here was you possibly need to go and re scope and basically do a retrospective scoping exercise based on the fact that we're going to fly now and their service might be different to what we wanted. Hence they scored second. That is certainly one way to do it. If you do that so you are then somewhat ethically and morally bankrupt because you are breaking the rules. However, you're being told to break the rules. So if I was in this scenario and I would have been told to break the rules like that, and I didn't fancy losing the job, and in fact, of the fact of escalation of things, I would do as you said I would do respect. However, the first thing I would do is I would call it project board meeting and make the director say it to the project board and get them involved, because that's documented. And you'd be amazed how many people change their mind when you document it. Often it happens the separate times. Write it down like, well, it's not quite what I meant. Something simple. So yes, you could go and read this. Okay. Now is this going to fail? I don't know, right? You could you could easily make it work with supplier B. That could really work. The point of this case study is more just to say, doesn't always go your way, and you might think you will control. You're really not. Okay. So this is just a bonus one just thrown in. Seeing as you're all come so people and you will probably end up going to somebody that has a very large data centre, you may even have some data centres in your room. If you're nice and lucky, you're a senior manager at a very large data centre. Data centre houses significant amounts of highly critical data, like most important data in the world. If this data went the entire, let's say the entire UK government would collapse, which is 2.5 breaks out of the data centre. What do you do? Come on, let's get some nice, interesting answer.
+
+UNKNOWN
+You just leave? Because if it's.
+
+SPEAKER 1
+Okay. It's a government data set back. But yes, you probably would have lost that backup. But yeah, you need some people working on it. First and foremost. Okay, I'm gonna make this a lot harder next year. Well done. Who would have said that? Get the people out first. There is no such thing as data more important than human life. Same for your projects. Safety management work you do just about anything you do in life. The first thing you do here is you get the people out. Gentleman up there is actually quite correct that there probably is a backup somewhere. And you're right. I would hope that they have at least some backup. But yes, you get the people out first. So why am I throwing this one in? Because project management is not just what it says in a textbook. Being a senior manager is also being a project manager. The project manager is not necessarily a defined role. Project management is doing everything all the time. We're doing project manager every day of our lives. You may get presented like this that textbook prints to the agile Kanban. All of them will say, oh, you know something, maybe, and say, oh, well, what you do is you start document X and you start reporting about, you know, get out of the download and get everybody safe. Then you can worry about that. Okay. So I said earlier, why did projects fail a failure to understand why. So what are some ways to try and fix these or try and get yourself away from it. Someone regularly review your business case. Okay. Something that prints to you and mentions it and well, that 2019 features that I read, it mentions that they a business case does not get written once and left there for the rest of his life. It gets written once and it gets reviewed at every end stage. At any stage. Next stage you should have a paragraph that says review of business case. There have been no changes to the business reasons for doing this way or there are big changes. Okay. Review your business case regularly. Use your business case to measure how well you're doing, because if you ever stop and go, okay, well, we've started delivering things and you pick it up and you look at your business case, you say, I especially bring ten boxes of peanuts over five boxes of flowers. It's a good time to stop and go. Maybe we've got it wrong there happens constantly review it. A failure to understand the what? What is the problem you're trying to resolve. Keep asking the question when you're sitting in the room with technical people or even your users or things like that. When there starts to be people arguing all the time, if somebody wants to give their opinion or say, we should do it like this, that's fine. That's what you want. You want people to give your opinion, but you need to constantly say, what is the problem we're trying to solve? Does whatever you've just suggested need that? If it does, you really should be considering it. If it doesn't, it's a great way to shut somebody down without a thought of selling. If I'm insulted, simply shouting and saying no, shut up. I don't want to talk to you. It's a great way to say that's a great opinion. Love the idea, but it's not what we're trying to solve. A failure to use common sense. Use the force. Please. Use the force. Trust your instincts. Okay. Trust yourselves. It's very, very hard when you first go into a room and you want to try and put your own opinion across, you may well feel overwhelmed. You may well feel all sorts of different feelings. Trust yourselves again. You guys have got over a third year say you have got experience. Don't anybody tell you otherwise. Obviously do it gently. Do it carefully. Don't just go. Tell me you know ahead of cyber that they don't know what they're doing because they probably do. But do trust yourself. And someone's ego has got in the way. The only way I've ever found to deal with that is build a report. Build a poll with those individuals, but build rapport with all the senior network around you. First rule of business always make friends with the PA's PA, EA's executive assistant and personal assistants. Or there are myriad of different person you want to know who does the work in a business at eight the CEO, I promise you that it's the PA, and if you're ever going to need those CEO's time, or the senior manager or the head of department, whatever term you want to use, do you ever going to need their time? You got to get through that gate first. Make friends with them. Build the rapport. Build your network. In that scenario where that director was choosing a different supplier. If you were confident in your network, if you've built that rapport, you've had that with all the people, then you can feel confident enough to go and say, Mr. or Mrs. or person X, can I have five minutes your time? I'd be concerned about that. Now if you're something. Be present every day about little things. They're just going to dismiss you. But if you're truly only ever escalating when something goes wrong, they'll stop. They'll stop and hold on. Why is this person coming to me? You can say, look, I'm uncomfortable here because by the rules, we picked this one. Bob over there has told us to go for this one. I am a bit uncomfortable and not quite sure what to do. There are some.
+
+SPEAKER 2
+CEOs who are.
+
+SPEAKER 1
+And some head department, and some senior people who are.
+
+SPEAKER 2
+Power tripping and stuff like.
+
+SPEAKER 1
+That. It happens. Most people are human beings.
+
+SPEAKER 2
+And if you truly come.
+
+SPEAKER 1
+To them and say that to them, I believe they would say, maybe there's something here because you've actually escalated it. That's the only way you can just you can fight the ego problem causing a failure. That's right. That's right. So any questions on that. So thank you very much for listening. Um, anybody has any questions that we should ask me or any information they want. We're happy to talk.
+
+SPEAKER 6
+What are some of the biggest differences you see in project management between the public?
+
+SPEAKER 1
+I can't use the political answer. Genuinely, I find public sector projects are better on the private. And I find that that is purely down to ego. So most civil servants, contrary to media and all this other nonsense, most of the servants are actually incredibly hard working people. They are often doing things on a shoestring, and they often don't have the training required to do this. One of my biggest bugbears in the world right now is contract negotiation in the civil service. They are expected to go up against these big giant companies that arrive with 50 lawyers all being paid, you know, £100,000 a day to be there. And you've got three civil servants on, you know, maybe a 40 or 50 K salary, who arguably is they don't have access to the lawyers, and they're supposed to negotiate these giant £500 million contracts. I don't blame them at all. But what is happening is this contract are poorly negotiated. And then when things go wrong, we can't hold anybody to account in the private sector. I find a lot of people, a lot of people often feel that money buys them everything. They'll say, oh, just fix the problem. There's some money. Fix the problem. I've had scenarios where I've had a client of mine wanted a new CRM, and they were on the cusp of signing a contract, and then they asked me, because I do that, I asked them to review from their checklist. I went back to the client. I said, why are you doing this? You know, forget the objection. Why? What we need to say with all this data, you just just said, okay, well, you realise the CRM is just a logic and she shouldn't enter in, should they? Out? You've got no name accommodation.
+
+SPEAKER 0
+Duplicates.
+
+SPEAKER 1
+You have no clarity, no selling up representations. You're going to spend 200 grand on a CRM and I promise you it's going to fail. I think they just can't listen to me. Then I run some business across them, and basically we changed all those things and cost them maybe 10% of what the original cost them. They still don't have the CRM. They don't need it. And it's that it's money fixes it. The public sector definitely find it the other way around. It varies. There were so many appeals now.
+
+UNKNOWN
+Yeah. So a lot of these private management.
+
+SPEAKER 1
+Very much.
+
+SPEAKER 6
+When you're in business.
+
+SPEAKER 1
+Very good question. Very good question. So the question was a lot of the methodologies feel very insular that you're only focusing on yourself. How do you in a business of an organisation how do you interact with the others. So the the biggest way that most businesses try to fix that is they have a PMO, a project management office, which is supposed to be a kind of an umbrella over all their projects. It's an area where those projects can often escalate and they get checked, that sort of thing. I'm not a big fan of PMO, but a 100% agree with your with your point. And that to me comes down to your interaction with other people. You've got to build the rapport with other people, building things in your area, in an organisation. But to say that all businesses don't have silos would be an absolute alliance. And the biggest silo, sorry, is it? It becomes a silo for two reasons. One, the vast majority of people in the world today do not understand it. Look it out. Look at world leaders. Barring 1 or 2 countries, most world leaders are over the age of 50. Those people 30 years ago were only just getting, if they were lucky, in the UK, a 56 kilobyte internet connection. Like, I'm old enough and I'm still not that old, but I'm old enough to remember. When you get a website and a picture with a in it, and these people are in charge of our world. I don't know what they're talking about. They don't know what it is. And so they just they couldn't ask that on a map. And then on the other side with it, people like all of us, I'm assuming, would like to be able to come to that. We're quite frankly, as I said earlier, who wants to interact with the others? So we become insular because we can talk a language we understand ourselves. And that's why you record. Biggest thing is to become a translator for the truth. So I don't perfect answer to your question, but hopefully explain it a little bit. Anybody else? Anybody online?
+
+UNKNOWN
+Yeah. Graduate school. How do you stand that?
+
+SPEAKER 1
+So you buy up some people online. But the question was most especially when you graduate. Hopefully go to your first role and you wouldn't necessarily be a project manager. How do you stand up in a project manager if you're not the project manager? Project manager just a title. Okay, now if you want to do that, then I'd suggest that when you start looking for a full look for ones that involve a goal, you need it often. So when you see a role, it says you'll be the technical lead for X as project manager, you drive it equally once you're in the role, even if you're not in a project, there's something you want to do. Almost every single organisation have ever heard of. If you went to your line manager or you went to somebody there and said, look, I'm really interested in this, can I beat this? They would find some way to let you do intellectual product, and if they weren't, there's no reason you can't go and make friends with a project manager. Buy them a drink or coffee or whatever you want, and then the next time they've got a meeting, just say, do you mind if I just sit down and listen? That's a great way to get experience. Go and just sit and listen. Even at the university, you can walk into any lecture hall and just sit and listen if you want the same principle. So obviously, if you've been given a task in the meeting that don't do that, but find some time to just go and show them. Can you put your.
+
+SPEAKER 6
+Questions on the screen?
+
+SPEAKER 1
+If you want to ask the guest lecturers. Unless you're some kind of new slang that I don't know. But yeah, you can ask the question about that was.
+
+SPEAKER 2
+Asked during my session about the.
+
+SPEAKER 1
+So I believe the change theme is a meaningless buzzword. I believe a lot of points to a lot of all the methodology is just buzz words. But what? Although it might be a buzzword, what it is trying to convey to you is you should expect change. So the old adage of Princess, I did my princess to 2009, it yeah, she doesn't mind. And at that time they didn't have a change. And it was one of the arguments against that. It was rigid. You don't change now. It does. It sets that. Well, just because you said you're going to build a railway line from Euston all the way up to Manchester and everything the world changes, you know, so you may need to change your projects. So yes, it's a meaningless buzzword, but does that mean you should ignore it? No. Things are replicable. Yeah. Responding to your previous questions. Right. Okay.
+
+SPEAKER 2
+I think.
+
+SPEAKER 6
+We're.
+
+SPEAKER 2
+Coming towards the end.
+
+UNKNOWN
+A couple of things to do. So kind of see more for a great.
+
+SPEAKER 2
+Um. So. Can you hear me? Hello? Hello. Hello. Hello. Okay. We're good. Okay, so I got questions coming in now. Ah, the guest lecture is the guest lecture content examiners. So, as Tebow said, I'm not going to be testing you on on Tebow's opinions. But I think Tebow, you know, added some perspective to to the theory that I taught you. And I think it's really useful for you to be aware of some of those important messages, in particular, appointing members of a board. I might do an exam question which involves you picking who would you pick to be on your board? Or why is this board not appropriate? You may need to use some of the theory, or perhaps some of the intuitive examples that Tebow shared with us to answer that question. So I think it provides the context that will make it necessary to understand the theory. So I think, you know, although I'm not going to be testing you on on people's opinions, I think his opinions really do provide the necessary narrative to make sense of what I showed you. Are they? Be good. They think you're a good guest lecturer as well. They've translated that one for you. Yeah. Are there any more here? Okay, so let me. Finish up by going back to my slides. Okay. So this is where we're at. So we have now four weeks in. Pretty exciting. You'll see that we are ready to start writing chapter one. So it's something that you should do gradually throughout the year so that you're not burdened with a huge essay later on. Also, because we're going to be handing in chapters one and 2 in 3 weeks time. Um, so what's happened to the slide there? No, I don't think I press that. Sorry. I press them by by mistake. Or as PowerPoint crashed. I think PowerPoints crashed on me again. So because of that, I will say thanks for coming and see you all next time. See you on Thursday, in fact. Cheers. Thanks again to Tibor.
+
+SPEAKER 1
+PowerPoint. Keep crashing on me.
+
+SPEAKER 2
+PowerPoint keeps crashing on me. Expect that to you.
+
+SPEAKER 1
+Yeah, well you don't having broken mics either. No.
+
+SPEAKER 2
+Exactly. That's terrible. I mean, those ones seem to work, but they just.
+
+SPEAKER 1
+Yeah. It's hard. It's harder to hold like that.
+
+SPEAKER 2
+So I guess they're just old. I guess I need to get. Yeah. You need a passcode to message. I mean, what's the passcode? 999. I guess it's the students. Don't do it. I mean, I can call that number, I suppose, but I'll just email.
+
+SPEAKER 0
+Your mobile phone.
+
+SPEAKER 1
+That's the dumbest thing I've ever heard.
+
+SPEAKER 2
+Oh, well. Yeah, probably. I'm sure they'll just get. They'll have loads of these things kicking around. Yeah. Yeah.
+
+SPEAKER 1
+Okay.
+
+SPEAKER 2
+That was really good. Yeah, that's really good. Yeah, I liked it. I think it's interesting because I think we're kind of we're adapting each other's dynamic a bit, but I like. Yeah, as always it's always good fun I think.
+
+SPEAKER 1
+Well it's it's just pointing out that just because the textbook says it doesn't mean so. Yes yes yes. No no I.
+
+SPEAKER 2
+Like it, I like it. I think it's a good sort of balance that we get. Hello. Quick question.
+
+SPEAKER 6
+Are you going to be in tomorrow or.
+
+SPEAKER 2
+I'm going to be in tomorrow afternoon. Good. Yeah. I'll see you in person. Sounds good. Cheers.
+
+SPEAKER 1
+Right. I'm gonna head off. Sorry, I need to run.
+
+SPEAKER 2
+Yeah, sorry. Honestly. It's fantastic. Every year it is always do a great job.
+
+SPEAKER 1
+And it's telling the department they need to hire me.
+
+SPEAKER 2
+I'm desperate. Have you put in an application in computer science?
+
+SPEAKER 1
+No, I put in for. I applied for the engineering one. Didn't even get an interview. It's ridiculous. I don't know, I don't know why that was.
+
+SPEAKER 2
+That must have been an internal candidate thing. Yeah.
+
+SPEAKER 1
+I was really disappointed. I actually wanted this.
+
+SPEAKER 2
+I certainly be recommending you. I mean, I think I think you're great.
+
+SPEAKER 1
+Thank you. I would really like to do it. The other thing that that I'm considering doing. So I'm working with the mod right now. Right. And I might be applying to become a reserve because I want to save in a second. I'm just going to just make sure this is not recording. There we go. Sorry. No, I um, because there's a cyber reserves force. Oh, yeah. And I'm considering applying. I'm a captain in the army. But I'm just weird.
+
+SPEAKER 2
+You like doing random things and just learning new things.
+
+SPEAKER 1
+I love it, I love it, so fantastic.
+
+SPEAKER 2
+I'll close that. You can leave, I know.
+
+SPEAKER 1
+Okay. Thank you. No problem. Anytime.
+
+SPEAKER 2
+Hello.
+
+SPEAKER 6
+Just a quick question. Um, about the. Yes. Is it just. The first half.
+
+SPEAKER 2
+Yes. Correct. So, so there's the assessment of that as well. So you submit the assessment isn't it. Yes, sir.
+
+SPEAKER 6
+It's it have to do it.
+
+SPEAKER 2
+But if you don't do it could be penalised. So it's kind of a negative assessment. Yeah exactly.
+
+SPEAKER 6
+And the essay is on the. Is an individual essay, but on the same topic is the group project.
+
+SPEAKER 2
+Yes it is. So if you look at the module, unfortunately I couldn't get my slide on there. But there's a lot of things. I talk about it next week just so that everyone has a picture. But there's a module. Web page explains exactly what each chapter about. Start is straightforward, be it based on the work that you do.
+
+SPEAKER 6
+So you have to wait. So we can't just write.
+
+SPEAKER 2
+These headings would be writing this so you can start writing chapter one finished product.
+
+SPEAKER 6
+That's great.
+
+SPEAKER 2
+Thursday and Thursday it's after Thursday.
+
+SPEAKER 6
+It's after Thursday after Thursday.
+
+SPEAKER 2
+Okay. So in fact I'll talk.
+
+SPEAKER 1
+Thank God. I wasn't sure if it was supposed to start.
+
+SPEAKER 6
+No.
+
+SPEAKER 2
+I misspoke there. We start on Thursday.
+
+SPEAKER 6
+I. So I was trying.
+
+SPEAKER 2
+To.
+
+SPEAKER 1
+Describe what we.
+
+SPEAKER 2
+Did. So that's that's half of it. It's a half is describing it. The other half is the analysis. So I'm interested in the critical review of what you did.
+
+SPEAKER 6
+So you can just.
+
+SPEAKER 2
+You know, scrutinise again. So it's great that you've got that documented okay. And I would say keep those pages. Sure. If you want to focus at.
+
+SPEAKER 6
+A critique of the approach.
+
+SPEAKER 2
+Used the pros and cons of different methods.
+
+SPEAKER 6
+That kind.
+
+SPEAKER 2
+Of thing.
+
+SPEAKER 1
+So like if I could like for example.
+
+SPEAKER 6
+So that I would put.
+
+SPEAKER 2
+On a figure because that's something that doesn't need to be assessed. That's just facts, right? Whereas I'm I'm keen on really assessing the critical review of that. So the analysis basically okay.
+
+SPEAKER 1
+And then.
+
+SPEAKER 2
+Stuff. Yeah, yeah. So? So link it to the theory. Explain how it all works. Things like that. It's all switched off. Yes.
+
+SPEAKER 6
+Thanks. So.
+
+SPEAKER 7
+So.
+
+SPEAKER 8
+So I realised when I uploaded a lecture on Moodle, initially I put it under liberalism. Sorry about the too. So I moved it, I just, I just moved it. Sorry. So apologies for that. It was a mistake. Yeah.
