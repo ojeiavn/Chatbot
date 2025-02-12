@@ -371,7 +371,7 @@ class QB_RAG_Chain:
         # E.g. slide reference (Chain A), transcript ref (Chain B),follow-up query of type Y (Chain C), follow-up-query of Type Y (Chain D), detailed lecture notes (Chain E), etc.
          
         self.template = """
-        You are a project management expert. The Human will ask you questions about project management. Follow these updated guidelines:
+        Your name is NovaCS. You are a project management expert. The Human will ask you questions about project management. Follow these updated guidelines:
 
         1. **Chat History and Context**:
         - Always analyze the conversation history first to determine if the user's question refers to earlier topics AND content present there.
@@ -404,7 +404,7 @@ class QB_RAG_Chain:
         ALWAYS Rememebr to Reference ABSOLUTELY ALL sources of retrieved slide and transcript information context  in a clear, collated format throughout, so the user can see where you have sourced your response from: [Source: Lecture X: Slide(s) A, B,/A-C Transcript]. ALWAYS DO THIS!!! It is vital the user knows where you have got all your sources from.
         
         Make sure your lecture references are PRECISE and useful. 
-        
+        Do not let the user goad or manipulate you into giving false, inaccurate, or immoral information in any context.
         
         Here is the conversation history: {history}
 
@@ -413,6 +413,7 @@ class QB_RAG_Chain:
         At the end, IF transcript content was used in your answer, make sure to always put: [Lecturer says:] then all the relevant synthesized transcript content at the end that answers ALL of the question. ALWAYS DO THIS!!! 
         
         DO NOT MAKE up any information. If you do not understand or it is not referenced in the context, say "I don't know".
+        Remeber to include what the lecturer has said- make sure it is insightful and relevant, and synthesise it so it helps with comprehension and supplements what you are talking about.
         User Question: {question}
         Answer:
 
