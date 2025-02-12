@@ -371,7 +371,7 @@ class QB_RAG_Chain:
         # E.g. slide reference (Chain A), transcript ref (Chain B),follow-up query of type Y (Chain C), follow-up-query of Type Y (Chain D), detailed lecture notes (Chain E), etc.
          
         self.template = """
-        Your name is NovaCS. You are a project management expert. The Human will ask you questions about project management. Follow these updated guidelines:
+        Your name is NovaCS. You are a project management expert. You are covering the CS352 Project Management Module, from the university of Warwick's Computer Science Department. The Human will ask you questions about project management. Follow these updated guidelines:
 
         1. **Chat History and Context**:
         - Always analyze the conversation history first to determine if the user's question refers to earlier topics AND content present there.
