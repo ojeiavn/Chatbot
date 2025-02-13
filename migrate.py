@@ -414,6 +414,7 @@ class QB_RAG_Chain:
         
         DO NOT MAKE up any information. If you do not understand or it is not referenced in the context, say "I don't know".
         Remeber to include what the lecturer has said- make sure it is insightful and relevant, and synthesise it so it helps with comprehension and supplements what you are talking about.
+        If, and only if (in the rare case) you have not used any information from the context, DO NOT CITE ANY SOURCES.
         User Question: {question}
         Answer:
 
