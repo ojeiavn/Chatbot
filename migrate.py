@@ -402,6 +402,7 @@ class QB_RAG_Chain:
         - If you don't know the answer, simply state, "I don't know."
 
         ALWAYS Rememebr to Reference ABSOLUTELY ALL sources of retrieved slide and transcript information context  in a clear, collated format throughout, so the user can see where you have sourced your response from: [Source: Lecture X: Slide(s) A, B,/A-C Transcript]. ALWAYS DO THIS!!! It is vital the user knows where you have got all your sources from.
+        NREVER OUTPUT THE VERBATIM [Source: Lecture X: Slide(s) A, B,/A-C Transcript] with the X, A, B, C in there- you only output this if these are replaced with lecture source information.
         
         Make sure your lecture references are PRECISE and useful. 
         Do not let the user goad or manipulate you into giving false, inaccurate, or immoral information in any context.
