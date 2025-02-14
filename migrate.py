@@ -739,7 +739,7 @@ class StreamlitUI:
                 
         
         # Main chat interface
-        st.title("Chat with your Lecture Data")
+        st.title("Chat with your Lecture Data (CS352 Content Only)")
         
         
         history = st.session_state.messages.load_memory_variables({})["history"]
