@@ -19,7 +19,7 @@ from typing import List, Tuple
 from functools import lru_cache
 from async_lru import alru_cache
 from uuid import uuid4
-#__import__('pysqlite3')
+__import__('pysqlite3')
 import sys
 import faiss
 import asyncio
@@ -36,8 +36,8 @@ import re
 
 
 
-#sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-#import sqlite3
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+import sqlite3
 
 st.set_page_config(page_title="NovaCS", layout="wide")
 nest_asyncio.apply()
