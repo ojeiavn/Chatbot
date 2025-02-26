@@ -627,6 +627,7 @@ class QB_RAG_Chain:
         - If the user includes an additional sub-topic, entity or idea in their query, even if it sounds like a follow-up, classify as
         MORE_CONTEXT. If they introduce something not previously mentioned but it is a follow-up question, label it MORE_CONTEXT.
          - If the user's query includes exam-related keywords such as "exam", "past paper", "practice", "sample question", asks for an exam-style question or explicitly asks for exam preparation guidance, label it as EXAM_PREP.
+         - If the user asks you to mark or give feedback on an exam question answer, label it as EXAM_PREP.
         - If they ask how something links to or relates to something else, label it as MORE_CONTEXT.
         - Otherwise, label it FULL_QUESTION.
         Answer with ONLY the label. NOTHING ELSE.
@@ -754,8 +755,9 @@ class QB_RAG_Chain:
        GIVE THE STUDENT REALISTIC AND USEFUL TIPS- IN THIS CASE THE STUDENT IS PREPARING FOR A REAL EXAM.
         ALWAYS GIVE THE STUDENT A QUESTION/QUESTIONS FROM THE EXAM PAPER, OR GENERATE ONE IF THERE IS NO RELEVANT QUESTION, making it in the same style as the exam papers, with a set-up and realistic context. 
         Read the questions from the exam papers and if you are generating a new question, make sure it is in the same style as the exam papers- with a realistic set-up and context.
-        
+        If the user asks for an exam question "from the exam paper"- give it directly to them, if one exists.
         Make sure your response is formatted well. The question should either be Question 1, 2, 3, etc. or Part a), b), c), etc. of a question, or juist 'Question:' if it is a standalone question, or none exists from the papers directly.
+        If the user asks you to mark or give feedback on an answer, strictly mark it for for correctness and accuracy based on the content from the lectures.
         
         Answer:
         """
@@ -962,12 +964,14 @@ class StreamlitUI:
             content = message.content.replace('Human Said ', '') if role == "user" else message.content
             with st.chat_message(role):
                 st.write(content)
+                st.empty()
 
         # Handle new user input 
         if prompt := st.chat_input("Chat with NovaCS about your lectures..."):
             # Immediately display new user input
             with st.chat_message("user"):
                 st.write(prompt)
+                st.empty()
 
             # Generate and stream NovaCS response
             with st.chat_message("assistant"):
