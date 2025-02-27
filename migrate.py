@@ -526,7 +526,7 @@ class QB_RAG_Chain:
         Use the following necessary context to answer the question: Context: {context}
 
         At the end, IF transcript content was used in your answer, make sure to always put: [Lecturer says:] then all the relevant synthesized transcript content at the end that answers ALL of the question. Make sure the this section actually answers the user's question as best as possible. ALWAYS DO THIS!!! 
-        
+        If the user says something about the lecturer or what they say, reference transcript content.
         DO NOT MAKE up any information. If you do not understand or it is not referenced in the context, say "I don't know".
         Remeber to include what the lecturer has said- make sure it is insightful and relevant, and synthesise it so it helps with comprehension and supplements what you are talking about.
         If, and only if (in the rare case) you have not used any information from the context, DO NOT CITE ANY SOURCES. DO NOT MAKE up any information.
@@ -623,6 +623,7 @@ class QB_RAG_Chain:
         Criteria:
         - If the user is very referencing something immediately previously said with NO NEW content required
         or is only asking for more detail, label it FOLLOW_UP.
+        - If the user is referencing the lecturer, label it as FULL_QUESTION, or if it is linked to history, label it FOLLOW_UP.
         - If there is NO HISTORY AND/OR the question COULD be seen as a full question, label it FULL_QUESTION.
         - If the user includes an additional sub-topic, entity or idea in their query, even if it sounds like a follow-up, classify as
         MORE_CONTEXT. If they introduce something not previously mentioned but it is a follow-up question, label it MORE_CONTEXT.
