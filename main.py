@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 from langchain.schema import Document, HumanMessage, AIMessage
 from typing import List, Tuple
 from functools import lru_cache
-#__import__('pysqlite3')
+__import__('pysqlite3')
 import sys
 
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
