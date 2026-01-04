@@ -241,7 +241,7 @@ def integrate_exam_paper(exam_file, exam_store: ExamVectorStore):
 
 # Class which implements QB-RAG
 class QueryGenerator:
-    def __init__(self, model_name="gpt-5-mini", temperature=0):
+    def __init__(self, model_name="gpt-4o-mini", temperature=0):
         self.llm = ChatOpenAI(model_name=model_name, temperature=temperature)
         
     def generate_questions(self, content):    
@@ -278,7 +278,7 @@ def generate_and_store_queries(docs : List[Document]):
 
 # Class which decomposes a query into smaller sub-queries for higher accuracy
 class DecompQueryGenerator():
-    def __init__(self, query, model_name="gpt-5-mini", temperature=0):
+    def __init__(self, query, model_name="gpt-4o-mini", temperature=0):
         self.query = query
         self.llm = ChatOpenAI(model_name=model_name, temperature=temperature)
         self.content_store = FAISS.load_local(folder_path="content_index", 
@@ -470,7 +470,7 @@ class QB_RAG_Chain:
         self.content_retriever = content_retriever
         self.content_store = content_store
         self.session_id = "unique_id_for_this_chat"
-        self.llm = ChatOpenAI(model="gpt-5-mini", 
+        self.llm = ChatOpenAI(model="gpt-4o-mini", 
                                        temperature=0)
         self.exam_retriever = exam_retriever
         self.exam_store = exam_store
@@ -709,7 +709,7 @@ class QB_RAG_Chain:
     
     def exam_prep(self, user_query: str):
         
-        llm = ChatOpenAI(model="o4-mini")
+        llm = ChatOpenAI(model="o3-mini")
         # Get conversation history
         formatted_history = self.format_conversation_history()
         
